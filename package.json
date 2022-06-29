@@ -2,15 +2,22 @@
   "name": "@hackathon-climat-05/common-lib",
   "version": "0.0.1",
   "description": "Common library for all Greenmile microservices.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hackathon-climat-05/common-lib.git"
   },
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hackathon-climat-05/common-lib/issues"
   },
-  "homepage": "https://github.com/hackathon-climat-05/common-lib#readme"
+  "homepage": "https://github.com/hackathon-climat-05/common-lib#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
