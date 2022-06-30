@@ -1,6 +1,6 @@
 {
   "name": "@hackathon-climat-05/common-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Common library for all Greenmile microservices.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/hackathon-climat-05/common-lib#readme",
   "devDependencies": {
+    "@types/node": "^18.0.0",
     "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mysql2": "^2.3.3"
   }
 }
